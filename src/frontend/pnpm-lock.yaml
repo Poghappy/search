@@ -55,7 +55,7 @@ dependencies:
     version: 1.0.7(@types/react-dom@18.3.0)(@types/react@18.3.0)(react-dom@18.3.1)(react@18.3.1)
   '@t3-oss/env-nextjs':
     specifier: ^0.10.1
-    version: 0.10.1(typescript@5.4.5)(zod@3.23.8)
+    version: 0.10.1(typescript@5.4.5)(zod@3.25.76)
   '@tanstack/react-query':
     specifier: ^5.32.0
     version: 5.32.0(react@18.3.1)
@@ -123,8 +123,8 @@ dependencies:
     specifier: ^6.0.1
     version: 6.0.1
   zod:
-    specifier: ^3.23.8
-    version: 3.23.8
+    specifier: ^3.25.76
+    version: 3.25.76
   zustand:
     specifier: ^4.5.2
     version: 4.5.2(@types/react@18.3.0)(react@18.3.1)
@@ -1492,7 +1492,7 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@t3-oss/env-core@0.10.1(typescript@5.4.5)(zod@3.23.8):
+  /@t3-oss/env-core@0.10.1(typescript@5.4.5)(zod@3.25.76):
     resolution: {integrity: sha512-GcKZiCfWks5CTxhezn9k5zWX3sMDIYf6Kaxy2Gx9YEQftFcz8hDRN56hcbylyAO3t4jQnQ5ifLawINsNgCDpOg==}
     peerDependencies:
       typescript: '>=5.0.0'
@@ -1502,10 +1502,10 @@ packages:
         optional: true
     dependencies:
       typescript: 5.4.5
-      zod: 3.23.8
+      zod: 3.25.76
     dev: false
 
-  /@t3-oss/env-nextjs@0.10.1(typescript@5.4.5)(zod@3.23.8):
+  /@t3-oss/env-nextjs@0.10.1(typescript@5.4.5)(zod@3.25.76):
     resolution: {integrity: sha512-iy2qqJLnFh1RjEWno2ZeyTu0ufomkXruUsOZludzDIroUabVvHsrSjtkHqwHp1/pgPUzN3yBRHMILW162X7x2Q==}
     peerDependencies:
       typescript: '>=5.0.0'
@@ -1514,9 +1514,9 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@t3-oss/env-core': 0.10.1(typescript@5.4.5)(zod@3.23.8)
+      '@t3-oss/env-core': 0.10.1(typescript@5.4.5)(zod@3.25.76)
       typescript: 5.4.5
-      zod: 3.23.8
+      zod: 3.25.76
     dev: false
 
   /@tailwindcss/typography@0.5.13(tailwindcss@3.4.3):
@@ -5274,8 +5274,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /zod@3.23.8:
-    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
+  /zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
     dev: false
 
   /zustand@4.5.2(@types/react@18.3.0)(react@18.3.1):
